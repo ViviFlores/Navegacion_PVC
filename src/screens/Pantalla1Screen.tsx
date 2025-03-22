@@ -9,7 +9,7 @@ export const Pantalla1Screen = () => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Pantalla 1</Text>
+            <Text style={styles.text}>Pantalla 1 - Screen 1</Text>
             <Button title='Ir pantalla 2'
                 onPress={() => navigation.dispatch(CommonActions.navigate({ name: 'Pantalla2' }))} />
         </View>
